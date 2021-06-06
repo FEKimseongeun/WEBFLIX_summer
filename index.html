@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WEBFLIX</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="./header.css">
+        <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.min.css">
+    </head>
+
+    <body>
+        <div class="main-banner-cover"></div>
+        <div class="container">
+            <header>
+                <div class='banner'>
+                    WEBFLIX
+                </div>
+                <a href="login.html" style="text-decoration:none;">
+                    <button>로그인</button>
+                </a> 
+            </header>
+            <mainscreen>
+                <div class='center'>
+                    영화, TV 프로그램을 무제한으로.
+                </div>
+                <div class='under'>
+                    다양한 디바이스에서 신청하세요. 언제든 해지하실 수 있습니다.<br><br>
+                    시청할 준비가 되셨나요?멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.
+                </div>
+            </mainscreen>
+            <form action="">
+                <label class="email-item" placeholder="email">
+                    <label for="id_email" class="placeLabel"></label>
+                    <input type="email" name="email"  class="field" id="id_email" 
+                    placeholder="이메일 주소" tabindex="0" autocomplete="email" maxlength="50" minlength="5" dir>
+                </label>
+                <button class="btn-free-trial">
+                    <a href="login.html" style="color:white; text-decoration:none; font-size:1rem;">시작하기 ></a>
+                </button>
+            </form>
+            <div class="item">
+               <span>TV로 즐기세요.</span>
+               <h1><img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/1766/production/_99709950_english.jpg" alt="My Image"></h1>
+            </div>
+            <div class="faq">
+                <div class="que">
+                    <span>자주 묻는 질문</span>
+                </div>
+                <div class="question1">
+                    <div class="collapse-title">
+                        <span>넷플릭스란 무엇인가요?</span>
+                        <button class="plusbtn" id="plus1" style="background: #303030;
+                        transition: all ease 0.5s;
+                        display:flex;"><i class="fas fa-plus"></i></button>
+                    </div>
+                    <div class="collapse-item" id="item2" style="display: none;">넷플릭스는 각종 수상 경력에 빛나는 TV 프로그램, 영화, 애니메이션, 다큐멘터리 등 다양한 콘텐츠를 인터넷 연결이 가능한 수천 종의 디바이스에서 시청할 수 있는 스트리밍 서비스입니다.<br><br>
+
+                        저렴한 월 요금으로 일체의 광고 없이 원하는 시간에 원하는 만큼 즐길 수 있습니다. 무궁무진한 콘텐츠가 준비되어 있으며 매주 새로운 TV 프로그램과 영화가 제공됩니다.
+                    </div>
+                </div>
+                <div class="question1">
+                    <div class="collapse-title">
+                        <span>넷플릭스 요금은 얼마인가요?</span>
+                        <button class="plusbtn" id="plus2" style="background: #303030;
+                            transition: all ease 0.5s;
+                            display:flex;"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <div class="collapse-item" id="item3" style="display: none;">스마트폰, 태블릿, 스마트 TV, 노트북, 스트리밍 디바이스 등 다양한 디바이스에서 월정액 요금 하나로 넷플릭스를 시청하세요. 멤버십 요금은 월 9,500원부터 14,500원까지 다양합니다. 추가 비용이나 약정이 없습니다.
+                        </div>
+                    </div>
+                    <div class="question1">
+                        <div class="collapse-title">
+                            <span>어디에서 시청할 수 있나요?</span>
+                            <button class="plusbtn" id="plus3" style="background: #303030;
+                                transition: all ease 0.5s;
+                                display:flex;"><i class="fas fa-plus"></i></button>
+                            </div>
+                            <div class="collapse-item"  id="item4" style="display: none;">다양한 디바이스에서 언제 어디서나 시청할 수 있습니다. 넷플릭스 계정으로 로그인하면 PC에서 netflix.com을 통해 바로 시청할 수 있으며, 인터넷이 연결되어 있고 넷플릭스 앱을 지원하는 디바이스(스마트 TV, 스마트폰, 태블릿, 스트리밍 미디어 플레이어, 게임 콘솔 등)에서도 언제든지 시청할 수 있습니다.<br><br>
+
+                                    iOS, Android, Windows 10용 앱에서는 좋아하는 프로그램을 저장할 수도 있습니다. 저장 기능을 이용해 이동 중이나 인터넷에 연결할 수 없는 곳에서도 시청하세요. 넷플릭스는 어디서든 함께니까요.
+                            </div>
+                        </div>
+                    <button class="btn-free-trial">30일 무료 이용 ></button>
+                    <div class="email-second">
+                        <span>시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</span>
+                        <form action="">
+                            <label class="email-item" placeholder="email">
+                                <label for="id_email" class="placeLabel"></label>
+                                <input type="email2" name="email"  class="field" id="id_email" 
+                                placeholder="이메일 주소" tabindex="0" autocomplete="email" maxlength="50" minlength="5" dir>
+                            </label>
+                            <button class="btn-free-trial">
+                                <a href="login.html" style="color:white; text-decoration:none; font-size:1rem;">시작하기 ></a>
+                            </button>
+                            <!-- <input type="submit" value="시작하기 >" /> -->
+                        </form>
+                    </div>
+                </div>             
+            </div>
+            <script src="index.js" async defer></script>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script src="" async defer></script>
+    </body>
+</html>
