@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="change_profile.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div id="wrapper">
+        <header>
+            <div class="banner">
+                <a href="login2.html">WEBFLIX</a>
+            </div>
+        </header>
+        <article>
+            <div class="title">
+                <h2>프로필 변경</h2>
+            </div>
+            <div class="profile-entry">
+                <div class="img-container">
+                   <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/1bdc9a33850498.56ba69ac2ba5b.png" alt="찬진" class="IconImg">
+                 </div>
+                <div class="profile-list">
+                    <form action="">
+                        <input type="text" name="name-input" id="name-input" placeholder="이름">
+                        <label for="language-select">언어
+                            <input type="button" name="language-select" id="language-select" value="한국어">
+                            <div class="language-select-content">
+                                <ul>
+                                <li>한국어</li>
+                                <li>English</li>
+                                <li>Deutsch</li> 
+                                <li>Español</li>
+                                <li>français</li>
+                                <li>italiano</li>
+                                <li>中文</li>
+                                <li>日本</li>
+                                <li>Tiếng Việt</li>
+                                </ul>
+                            </div>
+                        </label>
+                    </form>
+                    <div class="watch-level-control">
+                        <h3>관람등급 설정:</h3>
+                        <ul>
+                            <li><a href="#">모든 관람등급</a></li>
+                        </ul>
+                        <p>이 프로필에서는 <b>모든 관람등급</b>의 콘텐츠가 표시됩니다.</p>
+                        <div id="edit-button"><a href="#">수정</a></div>
+                    </div>
+                    <div class="autoplay-control">
+                        <form action="">
+                            <h3>자동 재생 설정</h3>
+                            <div class="form-column">
+                                <label for=""next-video-play""><input type="checkbox" name="next-video-play" id="next-video-play" value="next-video-play">모든 디바이스에서 시리즈의 다음 화 자동 재생
+                                </label>
+                                <label for="preview-video-play"><input type="checkbox" name="preview-video-play" id="preview-video-play" value="preview-video-play">모든 디바이스에서 탐색 중 미리보기 자동 재생
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                     <div class="profile-button">
+                        <button class="preferred-action">다음</button>
+                        <button onclick = "location.href = 'profile-manage.html' " class="grey-button">취소</button>
+                        <button class="grey-button">프로필 삭제</button>
+                    </div>
+                </div>
+               
+            </div>
+
+
+        </article>
+    </div>
+    <script src="" async defer></script>
+</body>
+
+</html>

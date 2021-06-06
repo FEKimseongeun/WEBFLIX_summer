@@ -1,0 +1,266 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 62.5%;
+        box-sizing: border-box;
+    }
+    
+    .loader {
+        border: 16px solid transparent;
+        /* Light grey */
+        border-top: 12px solid #e50914;
+        /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 1s linear infinite;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+    }
+    
+    .loader img {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: default;
+        z-index: inherit;
+    }
+    
+    @keyframes spin {
+        0% {
+            transform: translate(-50%, -50%) rotate(0deg);
+        }
+        100% {
+            transform: translate(-50%, -50%) rotate(360deg);
+        }
+    }
+    
+    #wrapper {
+        display: block;
+        opacity: 0;
+    }
+    
+    html {
+        background-color: black;
+        font-size: 16px;
+    }
+    
+    header {
+        background: black;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: red;
+        font-size: 3rem;
+        font-family: 'Rowdies', cursive;
+    }
+    
+    article {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 500px;
+        min-height: 300px;
+    }
+    
+    .title {
+        display: block;
+        text-align: left;
+    }
+    
+    .title h2 {
+        color: white;
+        font-size: 4vw;
+        margin: 0;
+        font-weight: 400;
+    }
+    
+    h3 {
+        color: grey;
+        font-weight: 400;
+        font-size: 1.3vw;
+        margin: 0.83em 0;
+    }
+    
+    .profile-entry {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+        padding: 2em 0;
+        min-width: 500px;
+    }
+    
+    .main-profile-avatar img {
+        height: 8vw;
+        width: 8vw;
+        max-height: 180px;
+        max-width: 180px;
+        min-height: 90px;
+        min-width: 90px;
+        border: 0;
+        margin-left: 0;
+        margin-right: 1.8vw;
+        margin-bottom: 0.8rem;
+        margin-top: 0.8rem;
+    }
+    
+    .profile-entry input[type=text] {
+        width: 18em;
+        height: 2em;
+        background: #666;
+        border: 1px solid transparent;
+        margin: 0 .8em 0 0;
+        padding: .2em .6em;
+        color: #fff;
+        font-size: 1.3vw;
+        min-width: 220px;
+        min-height: 19px;
+        outline: none;
+    }
+    
+    .profile-entry input[type='checkbox'] {
+        height: 2vw;
+        width: 2vw;
+        min-width: 18px;
+        min-height: 18px;
+    }
+    
+    label {
+        color: white;
+        font-size: 1.3vw;
+        font-weight: 700;
+        position: relative;
+    }
+    
+    label .message-box {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        padding: 0.8rem;
+        text-align: center;
+        color: black;
+        left: -1em;
+        bottom: 3em;
+        font-size: 1vw;
+        width: 18em;
+        border: none;
+    }
+    
+    label .message-box::after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px;
+        border-color: #fff transparent transparent transparent;
+        position: absolute;
+        display: block;
+        top: 100%;
+    }
+    
+    label:hover .message-box {
+        display: block;
+    }
+    
+    .profile-button {
+        margin-top: 7em;
+    }
+    
+    button {
+        padding: 0.5em 1.5em;
+        font-size: 1.5vw;
+        cursor: pointer;
+        font-weight: 700;
+        outline: none;
+    }
+    
+    .preferred-action {
+        margin-right: 2em;
+        border: 1px soild #fff;
+        transition: 0.2s ease;
+    }
+    
+    .profile-button a {
+        padding: 0.5em 1.5em;
+        font-size: 1.5vw;
+        cursor: pointer;
+        font-weight: 700;
+        color: #888;
+        text-decoration: none;
+        border: 2px solid #888;
+    }
+    
+    .profile-button a:hover {
+        border: 2px solid white;
+        color: white;
+    }
+    
+    .preferred-action:hover {
+        background: #c00;
+        border: 1px solid #c00;
+        color: #fff;
+    }
+    
+    @media only screen and (max-width: 900px) {
+        .title h2 {
+            font-size: 40px;
+            font-weight: 400;
+        }
+        .profile-button a {
+            font-size: 13px;
+        }
+        .profile-button button {
+            font-size: 13px;
+        }
+        label .message-box {
+            width: 160px;
+        }
+        .profile-entry {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: right;
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+            padding: 2em 0;
+        }
+        .profile-entry input[type=text] {
+            width: 220px;
+            height: 20px;
+            background: #666;
+            border: 1px solid transparent;
+            margin: 0 11px 0 0;
+            padding: 2px 8px;
+            color: #fff;
+            font-size: 13px;
+        }
+        h3 {
+            font-size: 13px;
+        }
+        label {
+            font-size: 13px;
+        }
+        label .message-box {
+            left: -1em;
+            bottom: 40px;
+            width: 30em;
+        }
+    }

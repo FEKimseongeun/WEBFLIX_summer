@@ -1,0 +1,278 @@
+* {
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+    box-sizing:border-box;
+}
+html {
+    font-size: 16px;
+    /* background-image: url('http://www.ilyoweekly.co.kr/news/data/20191125/p1065578267402028_574_thum.jpg'); */
+    /* width: 100%;
+    height: 40rem; */
+    background-image: url('http://www.ilyoweekly.co.kr/news/data/20191125/p1065578267402028_574_thum.jpg');   
+    position: relative;
+}
+
+.main-banner-cover{
+    width: 100%;
+    height: 31rem;
+    background: rgb(255,69,0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, transparent 10%, rgb(0, 0, 0) 80%);
+    position: absolute;
+    z-index: -1;
+}
+.center {
+    margin:3rem;
+    font-size: 25px;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    z-index: 2;
+}
+
+.under{
+    margin:1rem;
+    padding:0rem;
+    font-size: 0.9rem;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    text-align: center;  
+    z-index: 2; 
+}
+
+.email-item{
+    padding:0.5rem;
+    margin-top: 1rem;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    color: gray;
+    width:25rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+input[type="email"]{
+    width:80%;
+    height:20px;
+    border:none;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+input[type="submit"]{
+    border:none;
+    outline: none;
+    background: none;
+    color:white;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius:none;
+}
+.btn-free-trial .start-button{
+    margin-top: 0.5rem;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: 2;
+}
+.item{
+    margin-top: 2rem;
+    background:black;
+    width:100%;
+    height:25rem;
+    border-bottom: rgba(160,160,160,20%) solid 5px;
+}
+.item span{
+    padding:2rem;
+    font-size: 25px;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+.item h1{
+    display:flex;
+    width:50%;
+    height:60%;
+    margin-top: 0.5rem;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: center;
+}
+
+.faq{
+    width:100%;
+    height:50rem;
+    background: black;
+}
+
+.que span{
+    padding:2rem;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color:white;
+    margin-bottom: 3rem;
+}
+
+.question1{
+    margin-bottom: 1rem;
+}
+
+.collapse-title {
+    background: #303030;
+    width: 100%;
+    padding:1.4rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.collapse-title span{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color:white;
+}
+
+.collapse-title .plusbtn:hover{
+    transform: rotate( 45deg );
+}
+
+.collapse-title .fa-plus{
+    font-size: 1.3rem;
+    color:white;
+}
+
+.collapse-item {
+    background: #303030;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+}
+.btn-free-trial {
+    color:white;
+    margin-top: 1rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.explain{
+    background: black;
+    width: 100%;
+    height:15rem;
+}
+
+.email-second{
+    background: black;
+}
+.email-second span{
+    padding:2rem;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 300;
+    color:white;
+}
+input[type="email2"]{
+    width:80%;
+    height:20px;
+    border:none;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {  
+    .under{
+        margin:1rem;
+        padding:0rem;
+        font-size: 0.9rem;
+        font-weight: 300;
+        color:white;
+        display:flex;
+        flex-direction:column;
+        text-align: center;  
+        z-index: 2; 
+    }
+
+    .item h1{
+        width:100%;
+        height:50%;
+        margin-top: 0.5rem;
+        margin-left:auto;
+        margin-right:auto;
+        justify-content: center;
+    }
+    
+}  
+
+@media only screen and (min-width:800px){
+    .center{
+        margin:3rem;
+        font-size: 50px;
+        color:white;
+        font-family: 'Noto Sans KR', sans-serif;
+        display:flex;
+        flex-direction:column;
+        align-items: center;        
+    }
+
+    .question1{
+        margin-bottom: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .collapse-title {
+        background: #303030;
+        margin-left: 23rem;
+        width: 50%;
+        padding:1.4rem;
+        justify-content:space-between;
+        
+        align-items:center;
+    }
+
+    .collapse-item {
+        background: #303030;
+        border-top: 1px solid black;
+        margin-left: 23rem;
+        width: 50%;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 300;
+        color: white;
+    }
+
+    .under{
+        margin:1rem;
+        padding:0rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color:white;
+        display:flex;
+        flex-direction:column;
+        text-align: center;  
+        z-index: 2; 
+    }
+    .email-second span{
+        padding:2rem;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: 900;
+        color:white;
+    }
+}
+
