@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+header a {
+    text-decoration: none;
+    color: red;
+    font-size: 3rem;
+    font-family: 'Rowdies', cursive;
+}
+
+button {
+    background-color: #e50914;
+    color: white;
+    padding: 7px 17px;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+a {
+    width: 2rem;
+    height: 2rem;
+}
+
+.container {
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+    padding: 0 4%;
+}
+
+.copy-text-block {
+    color: grey;
+}
+
+.member-footer-service button {
+    background: transparent;
+    border: 1px solid grey;
+    color: grey;
+    padding: 0.5rem;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.link-content {
+    display: flex;
+    height: 235.2px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    margin: 20px auto 0;
+}
+
+.link-content .member-footer-link {
+    color: grey;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    list-style: none;
+}
+
+.link-content li {
+    margin: 0 0 14px 0;
+    padding: 0;
+    align-items: flex-start;
+}
+
+.link-content a {
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.sociallink img {
+    overflow: hidden;
+}
+
+.member-footer-copyright a {
+    color: grey;
+    text-decoration: none;
+}
+
+.sociallink img {
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.sociallink {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 841px) {
+    .footer {
+        font-size: 2.2rem;
+    }
+    .link-content a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        font-size: 2.5rem;
+        width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .link-content {
+        height: 134.4px;
+    }
+    .link-content a {
+        font-size: 1rem;
+    }
+    .member-footer-service .service-code {
+        font-size: 1rem;
+        padding: .5rem;
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>프로필 추가</title>
+    <meta name="description" content="">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $(window).load( function() {
+            $('.loader').delay('500').fadeOut();
+        });
+        $(window).load( function() {
+            $('#wrapper').fadeTo(1000,1.0);
+        })
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="add-profile.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="loader">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/bf6e4a33850498.56ba69ac3064f.png" width="30px" height="30px">
+    </div>
+    <div id="wrapper">
+        <header>
+            <div class='banner'>
+                <a href="login2.html">WEBFLIX</a>
+            </div>
+        </header>
+
+        <article>
+            <div class="title">
+                <h2>프로필 추가</h2>
+                <h3>Webfilx를 시청할 다른 사용자를 등록하시려면 프로필을 추가하세요.</h3>
+            </div>
+            <div class="profile-entry">
+                <div class="main-profile-avatar">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/bf6e4a33850498.56ba69ac3064f.png" style="opacity: 1; transform: scale(1); transition-duration: 400ms;">
+                </div>
+                <form action="">
+                    <div class="form-row">
+                        <input type="text" id="name-input" name="name-input" value="" placeholder="이름">
+                        <label><input type="checkbox" name="child-check" id="child-check" value="child"> 어린이인가요?
+                            <div class="message-box">이 옵션을 선택하시면 이 프로필에 만 12세 이하 등급의 TV프로그램과 영화만 표시됩니다.</div>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="profile-button">
+                <button class="preferred-action">다음</button>
+                <a href="profile-manage.html">취소</a>
+            </div>
+        </article>
+    </div>
+    <script src="" async defer></script>
+</body>
+
+</html>
