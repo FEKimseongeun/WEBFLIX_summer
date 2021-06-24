@@ -40,6 +40,15 @@
 * 로그인 했을 때의 화면
 - 넷플릭스 홈페이지 처럼 이미지를 상단에 꽉 차도록 설정
 - 재생 버튼과 상세정보를 커서를 잦다대면 변하도록 함
-- nav 바에 각 메뉴를 
+- nav 바에 각 메뉴를 나열
 ![image](https://user-images.githubusercontent.com/62641359/123276836-80c5c500-d540-11eb-9bca-1a6cd24ec8ef.png)
+
+* 프로필을 눌렀을 때 드롭다운
+- 프로필을 눌렀을 때 넷플릭스를 공용으로 이용하고 있는 유저들이 나열됨
+![image](https://user-images.githubusercontent.com/62641359/123277137-cd110500-d540-11eb-8550-4033834883c2.png)
+
+
+* 프로필을 눌렀을 때 드롭다운
+- 프로필을 눌렀을 때 넷플릭스를 공용으로 이용하고 있는 유저들이 나열됨
+![image](https://user-images.githubusercontent.com/62641359/123289569-896fc880-d54b-11eb-9032-47da981c7a96.png)
 
