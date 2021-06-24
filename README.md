@@ -30,3 +30,16 @@
 - 자주 묻는 질문에 메뉴를 추가하면서 align 속성을 다룸
 - 아래 또한번 이메일 주소를 입력할 수 있는 칸 추가
 ![image](https://user-images.githubusercontent.com/62641359/123270093-8c15f200-d53a-11eb-9e5c-731c7e0e71f6.png)
+
+* js를 통해 드롭다운 기능 구현
+- 플러스를 누르면 아래로 설명이 펼쳐지도록 구현
+- 다른 항목의 플러스 버튼을 누르면 열려 있는 항목은 다시 접히고 서택한 항목
+- addEventListener와 style.display를 이용해서 기능 구현함
+![image](https://user-images.githubusercontent.com/62641359/123270974-545b7a00-d53b-11eb-9cf6-c90e16468125.png)
+
+* 로그인 했을 때의 화면
+- 넷플릭스 홈페이지 처럼 이미지를 상단에 꽉 차도록 설정
+- 재생 버튼과 상세정보를 커서를 잦다대면 변하도록 함
+- nav 바에 각 메뉴를 
+![image](https://user-images.githubusercontent.com/62641359/123276836-80c5c500-d540-11eb-9bca-1a6cd24ec8ef.png)
+
