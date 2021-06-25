@@ -63,4 +63,9 @@
 ![image](https://user-images.githubusercontent.com/62641359/123363601-d5535980-d5ad-11eb-8564-7f52230f6780.png)
 ![image](https://user-images.githubusercontent.com/62641359/123363868-5c083680-d5ae-11eb-8b3f-c268aa83a437.png)
 
+*<로그인 했을때 본격적인 메인페이지>*
+- 영화나 드라마들이 나열되어있고 마우스를 갖다대면 크기가 커짐
+- hover를 잘 이용해서 커서를 갖다댔을때 변화하도록 하여 이해
+- 커서를 갖다댔을때 이미지가 커지고 그 옆에 나열되어있던 이미지들이 양쪽으로 자연스럽게 밀림
+![image](https://user-images.githubusercontent.com/62641359/123363941-86f28a80-d5ae-11eb-868e-7e08578f7408.png)
 
